@@ -1,13 +1,13 @@
 import { FC } from "react";
 import clsx from "clsx";
 
+type Challenge = {
+  level: string;
+};
+
 type CardProps = {
   title: string;
-  challenges: [
-    {
-      level?: string;
-    }
-  ];
+  challenges: Challenge[];
 };
 
 const CategoryCard: FC<CardProps> = ({ title, challenges }) => {
