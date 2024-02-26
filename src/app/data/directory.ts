@@ -1,1 +1,5 @@
-export const directory = [];
+export const DIRECTORY: { level: string }[] = [
+  {
+    level: "Newbie",
+  },
+];

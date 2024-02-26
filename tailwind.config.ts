@@ -12,10 +12,13 @@ const config: Config = {
         primary: "#CEFA5D",
         secondary: "#B4CF6F",
         bg: "#97A574",
-        disable: "#767A6A",
+        disabled: "#767A6A",
       },
       maxWidth: {
         100: "40rem",
+      },
+      boxShadow: {
+        card: "8px 8px 0 1px rgba(0, 0, 0)",
       },
     },
   },
