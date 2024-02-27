@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Raleway, Open_Sans } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer";
 
 const inter = Open_Sans({ subsets: ["latin"] });
 
@@ -16,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <main className="flex min-h-screen w-full flex-col items-center gap-4 bg-bg p-4 pb-16">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
