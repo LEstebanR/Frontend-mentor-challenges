@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Raleway, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
+import BreadCrumb from "@/components/breadcrumbs";
 
 const inter = Open_Sans({ subsets: ["latin"] });
 
@@ -18,6 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body className={inter.className}>
+        <BreadCrumb
+          homeElement={"Home"}
+          separator={<span>{">"}</span>}
+          activeClasses="text-primary font-bold mx-2"
+          containerClasses="flex py-5 bg-bg"
+          listClasses="hover:underline mx-2 font-bold"
+          capitalizeLinks
+        />
         <main className="flex min-h-screen w-full flex-col items-center gap-4 bg-bg p-4 pb-16">
           {children}
         </main>
