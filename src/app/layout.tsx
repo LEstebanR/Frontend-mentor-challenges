@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <body className={clsx(inter.className)}>
         <BreadCrumb
-          separator={<span>{">"}</span>}
+          separator={<span>{"/"}</span>}
           containerClasses="flex py-5"
           capitalizeLinks
         />

@@ -22,7 +22,7 @@ const ChallengeCard: FC<ChallengeCardProps> = ({ title, url, image, date }) => {
               width={100}
               height={100}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              className="rounded-lg transition-transform duration-300 ease-in-out hover:scale-150"
+              className="aspect-auto rounded-lg transition-transform duration-300 ease-in-out hover:scale-150"
             />
           </div>
         </div>

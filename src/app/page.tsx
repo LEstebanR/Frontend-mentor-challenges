@@ -1,5 +1,5 @@
 import Footer from "@/components/footer";
-import { Inter, Raleway, Open_Sans } from "next/font/google";
+import { Raleway } from "next/font/google";
 import clsx from "clsx";
 import CategoryCard from "../components/categoryCard";
 import { DIRECTORY } from "../data/directory";
