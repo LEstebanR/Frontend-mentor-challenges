@@ -20,6 +20,14 @@ const config: Config = {
       boxShadow: {
         card: "8px 8px 0 1px rgba(0, 0, 0)",
       },
+      height: {
+        screenWithFooter: "calc(100vh - 6rem)",
+        screenHome: "calc(100vh - 3rem)",
+      },
+      minHeight: {
+        screenWithFooter: "calc(100vh - 6rem)",
+        screenHome: "calc(100vh - 3rem)",
+      },
     },
   },
   plugins: [],

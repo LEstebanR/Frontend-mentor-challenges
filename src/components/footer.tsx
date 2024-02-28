@@ -1,9 +1,19 @@
+"use client";
 import { FC } from "react";
 import { HeartIcon } from "@heroicons/react/16/solid";
+import clsx from "clsx";
+import { usePathname } from "next/navigation";
 
 const Footer: FC = () => {
+  const paths = usePathname();
+  const pathNames = paths.split("/").filter((path) => path);
   return (
-    <footer className="fixed bottom-0 mt-4 flex h-12 w-full justify-center bg-bg">
+    <footer
+      className={clsx(
+        "fixed bottom-0 flex h-12 w-full justify-center py-4",
+        pathNames.length >= 2 ? "bg-white" : "bg-bg"
+      )}
+    >
       <div className="flex items-center gap-1">
         <p>Make with</p>
         <HeartIcon className="size-4 text-red-500" />
@@ -11,7 +21,10 @@ const Footer: FC = () => {
         <a
           href="https://www.lesteban.dev/"
           target="_blank"
-          className="text-primary"
+          className={clsx(
+            " underline decoration-primary  decoration-dotted underline-offset-4",
+            pathNames.length >= 2 ? "font-bold text-secondary" : "text-primary"
+          )}
         >
           LEsteban
         </a>

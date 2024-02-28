@@ -10,7 +10,7 @@ const CATEGORIES = ["newbie", "junior", "intermediate", "advanced", "guru"];
 
 export default function Home() {
   return (
-    <>
+    <div className="mb-12 flex min-h-screenHome flex-col items-center">
       <h1
         className={clsx(
           "my-8 text-center text-4xl font-extrabold  text-primary md:my-24 md:text-6xl",
@@ -19,9 +19,9 @@ export default function Home() {
       >
         Frontend Mentor Challenges
       </h1>
-      <p className="mb-12 max-w-100 text-center text-xl text-gray-100">
+      <p className="mb-12 max-w-100 px-4 text-center text-xl text-gray-100">
         <a
-          className="underline"
+          className="underline decoration-primary decoration-dotted underline-offset-2 transition-all duration-300 ease-in-out hover:text-primary"
           href="https://www.frontendmentor.io"
           target="_blank"
         >
@@ -45,6 +45,6 @@ export default function Home() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
