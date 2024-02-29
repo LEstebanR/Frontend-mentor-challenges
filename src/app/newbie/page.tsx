@@ -9,7 +9,7 @@ const challenge = DIRECTORY.filter((item) => item.level === "newbie");
 
 const Page: FC = () => {
   return (
-    <div className="h-screenWithFooter">
+    <div className="mb-20 min-h-screenWithFooter">
       <h1
         className={clsx(
           "my-8 text-center text-4xl font-extrabold  text-primary md:my-24 md:text-6xl",

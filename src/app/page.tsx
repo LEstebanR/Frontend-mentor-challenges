@@ -1,4 +1,3 @@
-import Footer from "@/components/footer";
 import { Raleway } from "next/font/google";
 import clsx from "clsx";
 import CategoryCard from "../components/categoryCard";
