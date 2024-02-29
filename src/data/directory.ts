@@ -19,4 +19,11 @@ export const DIRECTORY: {
     image: "/projects/newbie/order-summary/screenshot.png",
     date: new Date("2024-02-24"),
   },
+  {
+    level: "newbie",
+    title: "Social links profile",
+    url: "/newbie/social-links-profile",
+    image: "/projects/newbie/social-links-profile/screenshot.png",
+    date: new Date("2024-02-23"),
+  },
 ];

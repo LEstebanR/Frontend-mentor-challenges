@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={clsx(inter.className)}>
         <BreadCrumb
           separator={<span>{"/"}</span>}
-          containerClasses="flex py-5"
+          containerClasses="flex py-2 "
           capitalizeLinks
         />
         <main className="flex w-full flex-col items-center gap-4 bg-bg">
