@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Raleway, Open_Sans } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import BreadCrumb from "@/components/breadcrumbs";
