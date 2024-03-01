@@ -26,7 +26,7 @@ const config: Config = {
         screenHome: "calc(100vh - 3rem)",
       },
       minHeight: {
-        screenWithFooter: "calc(100vh - 6rem)",
+        screenWithFooter: "calc(100vh - 8rem)",
         screenHome: "calc(100vh - 3rem)",
       },
     },
