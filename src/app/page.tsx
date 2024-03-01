@@ -26,9 +26,9 @@ export default function Home() {
         >
           Frontend Mentor
         </a>{" "}
-        is an great tool to grow up your skills as a Frontend Developer, you can
-        choose designs according to your skills and you practice developing
-        them. These are my solutions to some of their challenges.
+        is an great tool to grow up your skills as a Frontend Developer. You can
+        choose designs according to your skills and practice developing them.
+        These are my solutions to some of their challenges.
       </p>
       <div className="grid w-9/12 grid-cols-2 gap-4 md:w-11/12 md:grid-cols-5">
         {CATEGORIES.map((category) => {
