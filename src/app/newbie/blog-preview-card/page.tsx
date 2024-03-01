@@ -84,7 +84,7 @@ const Card: React.FC<props> = ({ cardData }) => {
 
 const Page: FC = () => {
   return (
-    <div className="flex size-full min-h-screenWithFooter items-center justify-center bg-yellow-300">
+    <div className=" flex size-full min-h-screenHome items-center justify-center bg-yellow-300">
       <Card cardData={CARD_DATA} />
     </div>
   );

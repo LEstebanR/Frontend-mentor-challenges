@@ -96,7 +96,7 @@ const Card: FC<CardProps> = ({ info }) => {
 
 const Page: FC = () => {
   return (
-    <div className="flex size-full min-h-screenWithFooter items-center justify-center bg-red-50">
+    <div className="flex size-full min-h-screenHome items-center justify-center bg-red-50">
       <Card info={CARD_INFO} />
     </div>
   );

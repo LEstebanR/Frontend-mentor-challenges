@@ -81,7 +81,7 @@ const Card: FC<CardProps> = ({ infoCard }) => {
 
 const Page: FC = () => {
   return (
-    <div className=" flex size-full min-h-screenWithFooter items-center justify-center bg-gray-200 bg-[url('/projects/newbie/order-summary/bg-mobile.svg')] bg-[length:100%_auto] bg-no-repeat md:bg-[url('/projects/newbie/order-summary/bg-desktop.svg')]">
+    <div className=" flex size-full min-h-screenHome items-center justify-center bg-gray-200 bg-[url('/projects/newbie/order-summary/bg-mobile.svg')] bg-[length:100%_auto] bg-no-repeat md:bg-[url('/projects/newbie/order-summary/bg-desktop.svg')]">
       <Card infoCard={INFO_CARD} />
     </div>
   );

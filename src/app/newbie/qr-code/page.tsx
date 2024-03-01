@@ -84,7 +84,7 @@ const MyPage = () => {
   return (
     <div
       className={clsx(
-        "flex size-full min-h-screenWithFooter items-center justify-center bg-blue-200 ",
+        "flex size-full min-h-screenHome items-center justify-center bg-blue-200 ",
         outfit.className
       )}
     >
