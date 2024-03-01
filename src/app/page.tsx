@@ -30,7 +30,7 @@ export default function Home() {
         it, you find designs according to your skills and you can practice
         developing them. These are my solutions to some of their challenges.
       </p>
-      <div className="flex flex-row flex-wrap justify-center gap-4">
+      <div className="flex w-9/12 flex-row flex-wrap justify-between gap-4 md:w-11/12">
         {CATEGORIES.map((category) => {
           const challenges = DIRECTORY.filter(
             (challenge) => challenge.level === category

@@ -26,4 +26,11 @@ export const DIRECTORY: {
     image: "/projects/newbie/social-links-profile/screenshot.png",
     date: new Date("2024-02-23"),
   },
+  {
+    level: "newbie",
+    title: "Product preview card",
+    url: "/newbie/product-preview-card",
+    image: "/projects/newbie/product-preview-card/screenshot.png",
+    date: new Date("2024-02-22"),
+  },
 ];
