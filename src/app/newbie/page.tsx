@@ -18,7 +18,7 @@ const Page: FC = () => {
       >
         Newbie challenges
       </h1>
-      <div className="flex w-full flex-row flex-wrap justify-center gap-4 md:w-10/12 md:justify-between">
+      <div className="flex w-full flex-row flex-wrap justify-center gap-4  md:justify-start ">
         {challenge.map((item, index) => {
           return (
             <ChallengeCard

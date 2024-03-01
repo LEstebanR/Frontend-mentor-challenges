@@ -19,6 +19,7 @@ const config: Config = {
       },
       boxShadow: {
         card: "8px 8px 0 1px rgba(0, 0, 0)",
+        hover: "10px 10px 0 1px rgba(0, 0, 0)",
       },
       height: {
         screenWithFooter: "calc(100vh - 6rem)",
