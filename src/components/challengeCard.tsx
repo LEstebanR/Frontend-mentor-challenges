@@ -11,8 +11,8 @@ type ChallengeCardProps = {
 
 const ChallengeCard: FC<ChallengeCardProps> = ({ title, url, image, date }) => {
   return (
-    <Link href={url} className="w-5/6 max-w-60">
-      <div className=" rounded-xl border border-black bg-white transition-all duration-300 ease-in-out hover:shadow-card">
+    <Link href={url} className="w-full max-w-60">
+      <div className=" size-full rounded-xl border border-black bg-white transition-all duration-300 ease-in-out hover:shadow-card">
         <div className="w-full  overflow-hidden rounded-lg p-2">
           <div className="size-full overflow-hidden rounded-lg">
             <Image
@@ -26,7 +26,7 @@ const ChallengeCard: FC<ChallengeCardProps> = ({ title, url, image, date }) => {
             />
           </div>
         </div>
-        <p className="px-2 text-xl font-bold">{title}</p>
+        <p className="truncate px-2 text-xl font-bold">{title}</p>
         <hr className="my-2" />
         <p className="p-2 text-right text-sm italic">
           {date.toLocaleDateString()}
