@@ -40,4 +40,11 @@ export const DIRECTORY: {
     image: "/projects/newbie/blog-preview-card/screenshot.png",
     date: new Date("2024-02-21"),
   },
+  {
+    level: "junior",
+    title: "Advice generator",
+    url: "/junior/advice-generator",
+    image: "/projects/junior/advice-generator/screenshot.png",
+    date: new Date("2024-03-05"),
+  },
 ];
