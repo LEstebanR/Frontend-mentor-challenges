@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import BreadCrumb from "@/components/breadcrumbs";
 import clsx from "clsx";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Open_Sans({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         />
         <main className="flex w-full flex-col items-center gap-4 bg-bg">
           {children}
+          <Analytics />
         </main>
         <Footer />
       </body>
